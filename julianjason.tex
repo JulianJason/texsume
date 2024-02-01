@@ -1,0 +1,47 @@
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+\colorlet{awesome}{awesome-nephritis}
+
+\setbool{acvSectionColorHighlight}{false}
+
+%-----------------------
+% PERSONAL INFORMATION
+% ----------------------
+
+
+\name{Jason}{Julian}
+\position{\{ DevOps {\enskip\cdotp\enskip}Software \} Engineer}
+\address{3 Queens Road, ##04-157, S260003, Singapore}
+
+\mobile{(+65) 9655-3321}
+\email{hello@julianjason.com}
+\github{JulianJason}
+\linkedin{julianjason}
+
+%----- DOCUMENT STRUCTURE -----
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Jason Julian · CV}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{julianjason/education.tex}
+\input{julianjason/experience.tex}
+\newpage
+\input{julianjason/projects.tex}
+\input{julianjason/skills.tex}
+\input{julianjason/certificates.tex}
+
+
+\end{document}
